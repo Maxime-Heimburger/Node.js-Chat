@@ -1,0 +1,71 @@
+#users {
+	width:15%;
+	float:left;
+	position:fixed;
+	margin-left:0;
+	z-index:0;
+}
+#messages {
+	width:80%;
+	min-height:90%;
+	text-align:center;
+	background-color:#e5e5e5;
+	float:right;
+}
+.message {
+	width:98%;
+	margin:1%;
+	height:50px;
+	background-color:#fff;
+}
+.message img, .message p strong {
+	float:left;
+}
+.message p strong {
+	margin-left:2px;
+	margin-top:15px;
+}
+.message span {
+	float:right;
+}
+#message {
+	width:100%;
+}
+#login {
+	width:100%;
+	height:100%;
+	text-align:center;
+	color:#fff;
+	z-index:10;
+	position:relative;
+}
+#login h1 {
+	padding-top:300px;
+}
+#fond {
+	position:relative;
+	height: 100%;
+	width: 100%;
+	background-color:#000;
+	opacity:0.8;
+	z-index:5;
+}
+#form > #message{
+	width:60%;
+	height:10%;
+	margin-left:20%;
+}
+#form > #send{
+	margin-left:5%;
+	padding:1%;
+}
+
+.username {
+	float:right;
+	color:white;
+	padding-right:5%;
+}
+.connecter {
+	margin-top:2px;
+	background-color:#333;
+}
